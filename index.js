@@ -47,4 +47,5 @@ const htmlContent = markdownToHtml(markdownContent);
 const wrappedHtmlContent = `<style>\n${cssContent}\n</style>\n<div class="znc">\n${htmlContent}\n</div>`;
 
 // HTMLファイルに出力（例：output.html）
+console.log(`出力先: ${options.output}`);
 fs.writeFileSync(options.output, wrappedHtmlContent);
