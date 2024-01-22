@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "md-to-html": "./dist/bundle.js"
+    "md-to-html": "./dist/bundle.cjs"
   },
   "scripts": {
     "build": "webpack"
